@@ -12,7 +12,7 @@ tags:
 categories:
   - personal
 
-description: "Primera entrada, primera huella digital formal, hecha por fuera de la esfera de las redes sociales y del tipo de exposición a la que estas casi que obligan."
+description: "Primera entrada, primera huella digital formal, hecha por fuera de la esfera de las redes sociales y del tipo de exposición a la que obligan."
 
 params:
   priority: 10
