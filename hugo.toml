@@ -5,17 +5,17 @@ languageCode = "es"
 defaultContentLanguage = "es"
 
 [author]
- name = "Andrés Hurtado A"
+  name = "Andres Hurtado Agudelo"
+  email = "andfelhu@gmail.com"
 
 [params]
- mainSections = ["post"]
- description = "Lo que rescato de mi diario. Apuntes de memoria"
+  mainSections = ["post"]
+  description = "Lo que rescato de mi diario"
 
-[params.sidebar]
- emoji = "✍️"
- subtitle = "Lo que rescato de mi diario. Apuntes de memoria
+  [params.sidebar]
+    subtitle = "Lo que rescato de mi diario"
 
-[params.avatar]
- enabled = true
- local = true
- src = "img/avatar.jpg"
+  [params.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.jpg"
