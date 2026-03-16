@@ -1,4 +1,5 @@
 ---
+image: ![1](2.jpg)
 title: "Puerta de Cristal"
 date: 2026-03-14T21:30:00-05:00
 draft: false
@@ -17,8 +18,7 @@ description: "Primera entrada, primera huella digital formal, hecha por fuera de
 params:
   priority: 10
   process: "inicio"
-  created: "1989"
-  image: ![1](2.jpg)
+  created: "1989"  
 ---
 
 
