@@ -3,8 +3,17 @@ title: "Sobre este diario. La elección de GitHub Pages como medio"
 date: 2025-03-15
 draft: false
 tags: ["diario", "reflexión", "GitHub Pages", "escritura", "tecnología", "Software", "YouTube"]
-importance: 4
 image: "img/gitjpg"
+categories:
+  - personal
+
+description: "Primera entrada, primera huella digital formal, hecha por fuera de la esfera de las redes sociales."
+
+cover:
+  image: "2.jpg"
+
+params:
+  importance: 3
 ---
 
 
