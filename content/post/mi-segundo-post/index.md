@@ -80,5 +80,6 @@ unos códigos breves para escribir en Markdown, y tratar, tratar y tratar de sin
 carpetas + Hugo con GitHub: y listo. Veré cuándo se llene qué hago, y si puedo pasar todo
 esto a YouTube, por ahora escritos en este medio...
 
-### Actualización / Marzo 22
-Subir un post me toma tiempo, pero sobre todo la elección de HUGO es algo que esto repensando, subir foto es un incordio. No es difícil, pero toma un timepo innecesario.
+
+#### Actualización / Marzo 22
+Subir un post me toma tiempo, por eso la elección de HUGO para gestionar el blog es algo que estoy repensando. Subir fotos o cualquier imagen es un incordio. No es difícil, pero toma un timepo innecesario. Ademas genera muchos problemas de actulización en la medida que HUGO jode por cada cosa mal puesta.
