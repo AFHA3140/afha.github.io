@@ -6,7 +6,7 @@ tags: ["lecciones", "toma-de-decisiones", "futuro", "consumismo", "compras", "va
 importance: 6
 image: "aliexpress-vs-amazon.png"
 featured_image: "aliexpress-vs-amazon.png"
-banner: "aliexpress-vs-amazon.png"
+banner: "toshiyoshida.webp"
 
 ---
 
