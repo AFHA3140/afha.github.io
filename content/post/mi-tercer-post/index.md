@@ -152,10 +152,7 @@ No porque quienes manejan estas becas sean malintencionados. Al contrario: mucha
 Y mientras no se toque el filtro de verdad, el sistema seguirá haciendo lo mismo: seleccionar a quienes ya venían más cerca de parecer "seleccionables", y luego presentar esa selección como prueba de neutralidad.
 
 ## El fondo
-
-No estoy pidiendo caridad.
-
-Estoy diciendo algo más incómodo: que dejen de llamar neutral a un filtro que convierte ventajas previas en mérito.
+Dejen de llamar neutral a un filtro que convierte ventajas previas en mérito.
 
 Que dejen de vender como ascensor social un mecanismo que muchas veces funciona como una puerta giratoria.
 
