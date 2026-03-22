@@ -1,7 +1,6 @@
 ---
 title: "Blog Personal"
 date: 2026-01-09
-draft: true
 
 topics:
   - "Sistema educativo"
