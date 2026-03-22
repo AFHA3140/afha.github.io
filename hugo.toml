@@ -16,6 +16,11 @@ defaultContentLanguage = "es"
   x_handle = "@phiLL3141"
   birth = "1989"
 
+  # "auto" permite que el visitante elija con un botón de sol/luna
+    defaultMode = "auto" 
+    # Esto activa el switch visual en la barra lateral
+    displayModeSwitch = true
+
   [params.sidebar]
     subtitle = "Memoria. Lo que rescato de mi diario"
     enabled = true
