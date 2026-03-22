@@ -10,8 +10,7 @@ tags:
 categories:
   - personal
 description: "Primera entrada, primera huella digital formal, hecha por fuera de la esfera de las redes sociales."
-cover:
-  image: "2.jpg"
+
 params:
   priority: 10
   process: "inicio"
