@@ -1,7 +1,7 @@
 ---
 title: "Blog Personal"
 
-date: 2026-01-09
+date: 1989-01
 
 topics:
   - "Sistema educativo"
