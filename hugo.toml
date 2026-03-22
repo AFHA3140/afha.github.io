@@ -21,8 +21,7 @@ defaultContentLanguage = "es"
     # Esto activa el switch visual en la barra lateral
     displayModeSwitch = true
 
-    [params]
-    # ... otras cosas que ya tienes ...
+      # ... color de página ...
     [params.style]
         defaultMode = "auto"
         displayModeSwitch = true
