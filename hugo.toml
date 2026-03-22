@@ -17,7 +17,7 @@ defaultContentLanguage = "es"
   birth = "1989"
 
   [params.sidebar]
-    subtitle = "Memoria."
+    subtitle = "Memoria. Lo que rescato de mi diario"
     enabled = true
     local = true
     src = "img/avatar.jpg"
@@ -27,9 +27,6 @@ defaultContentLanguage = "es"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-  [params.sidebar]
-    subtitle = "Lo que rescato de mi diario"
 
   [params.avatar]
     enabled = true
