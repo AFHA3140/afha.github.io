@@ -1,5 +1,5 @@
 ---
-title: "200 mil pesos más en Amazon los valen, cada peso"
+title: "¿200 mil pesos de ahorro cuanto valen?"
 date: 2026-03-22
 description: "Una compra en internet como excusa de aprendizaje."
 tags: ["lecciones", "toma-de-decisiones", "futuro", "consumismo", "compras", "vanidad", "tecnología", "gadgets"]
