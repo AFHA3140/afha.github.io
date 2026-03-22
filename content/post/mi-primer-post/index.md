@@ -10,6 +10,8 @@ tags:
   - inicio
   - personal
 
+unsafe = true
+
 categories:
   - personal
 
