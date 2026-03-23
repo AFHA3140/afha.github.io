@@ -38,23 +38,23 @@ estado: construcción-permanente
 ## Lecturas que más me han marcado. 
 *No estan en un orden especifico, excepto el primero*:
 
-- [*La muerte de Iván Ilich* — Tolstói](https://onemorelibrary.com/index.php/es/libros/literatura/book/literatura-rusa-196/la-muerte-de-ivan-ilich-261)
+- [*La muerte de Iván Ilich* — Tolstói](https://www.elejandria.com/libro/la-muerte-de-ivan-ilich/tolstoi-leon/1797)
 - *Siete cuentos morales* — J. M. Coetzee [[La condición humana]]
-- *Federico Nietszche — **Todo*** = Si hay experiencia: Así hablo Zaratustra. Si hay rabia: No el ''anticristo''. Si hay ganas de aprender: ''La genealogía de moral''.
-- *Steve Jobs — Walter Isaacson* = Es un biografia muy bien escrita de alguien no menor. Es cruda, no da vueltas. Deja ver como ese mundo y como crece alguien en ese mundo tech, ycreo que engenral en USA. Vale la pena también apra entender el entonro cultural y la menra de pensar dominante que proviene de ese lugar y tiempo en concreto.
-- *Pedro Páramo — Juan Rulfo* = Cuento breve pero que no he terminado. Leo un poco y me deja pensando.
+- Federico Nietszche — ***Todo*** = Si hay experiencia: Así hablo Zaratustra. Si hay rabia: No el ''anticristo''. Si hay ganas de aprender: ''La genealogía de moral''.
+- *Steve Jobs* — Walter Isaacson = Es un biografia muy bien escrita de alguien no menor. Es cruda, no da vueltas. Deja ver como ese mundo y como crece alguien en ese mundo tech, ycreo que engenral en USA. Vale la pena también apra entender el entonro cultural y la menra de pensar dominante que proviene de ese lugar y tiempo en concreto.
+- *Pedro Páramo* — Juan Rulfo = Cuento breve pero que no he terminado. Leo un poco y me deja pensando.
 - *El camino del Tao* = Leo, leo a parte breves. Leo un poco y me deja pensando.
-- *El efecto Lucifer — Philip Zimbardo* = Más de la verdadera [[La condición humana]].
-- *Batman: The Killing Joke — Alan Moore*
-- *The Universe in a Nutshell — Stephen Hawking*
-- *Breves respuestas a las grandes preguntas — Stephen Hawking*
-- *Los tres primeros minutos —  Steven Weinberg*
-- *Del Alma, Política, Ética... — Aristoteles* = No he leído más, ni todo; pero si es de esa calidad vale la pena seguir.
-- *La República — Platón*
+- *El efecto Lucifer* — Philip Zimbardo = Más de la verdadera [[La condición humana]].
+- *Batman: The Killing Joke* — Alan Moore
+- *The Universe in a Nutshell* — Stephen Hawking
+- *Breves respuestas a las grandes preguntas* — Stephen Hawking
+- *Los tres primeros minutos* —  Steven Weinberg
+- *Del Alma, Política, Ética...* — Aristoteles = No he leído más, ni todo; pero si es de esa calidad vale la pena seguir.
+- *La República* — Platón
 - *Las mil y una noches* = Lo leo en ¨orden¨ sin esperar terminarlo algun día, no es mi objetivo. También, leo un cuento, y me deja pensando...
-- *Jorge Luís Borges*
-- *La casa de las bellas durmientes — Yasunari Kawabata*
-- *El leviatan — Thomas Hobbes*
+- Jorge Luís Borges
+- *La casa de las bellas durmientes* — Yasunari Kawabata
+- *El leviatan* — Thomas Hobbes
 
 
 ## Podcast
