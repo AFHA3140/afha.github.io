@@ -87,5 +87,6 @@ No los recuerdo. Es un poco injusto: los libros se recuerdan, los artículos cie
 
 Muy pocas, nunca he disfrutado de eso, especialmente de la series.
 
-- *2001: A Space Odyssey — Stanley Kubrick*
-- *El Padrino — Francis Ford Coppola*
+- *2001: A Space Odyssey* — Stanley Kubrick
+- *El Padrino* — Francis Ford Coppola
+- *Jurassic Park* — Steven Spielberg
