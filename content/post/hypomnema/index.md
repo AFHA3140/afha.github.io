@@ -1,17 +1,15 @@
-## Este post es menor organizado, no es algo a lo que le dedique más de una tarde. A veces el tiempo es menor o las obligaciones mayores, y siento que hay cosas que debo decir, así sea con brevedad.
+## Todo el blog es un hypomnema, pero quería un espacio más breve.
 
-#### Esto parece redundante, pues todo el blog es un hypomnema, pero quise terner un espacio más breve aún, sin nada de desarrollo. Carpeta que siempre estarán en construcción. 
-
-- No tomarse nunca en serio ni los insultos ni los halagos: provienen del mismo tipo de personas y tienen la misma intención.
+- El elogio y el insulto son lo mismo: lo que revela no es al que lo emite, sino al que no puede ignorarlo.
 
 ---
 
-- ¡Iconoclasta! Los modelos, famosos, celebridades etc: ese tipo de personas son construcciones de pura fachada. Además de carecer de fondo, te meterán en un círculo de consumo y veneración donde tu ser se relega y se regala.
+- Iconoclasta. El modelo a seguir es una trampa: Te venden un espejo donde solo se ven ellos. Perdés tiempo y habitarte a vos mismo.
 
 ---
 
-- No creas que una persona está en una posición de autoridad por talento, por algo extraordinario que aportar, o por virtud. En mi experiencia, muchas veces es por falta de moral, de ética, o de ambas. Círculos sociales, capital social, influencias, o a veces solo suerte.
+- La autoridad rara vez certifica mérito. Con más frecuencia certifica tolerancia: quién cedió más, maniobró mejor, o fingió más. Tratala como dato, no como juicio moral sobre quien la ocupa.
 
 ---
 
-- Aprende sobre el efecto aura para que nunca caigas en el; es más común de lo que te imaginas. La gente tonta cae fácil en enredos porque prejuzga a alguien por su nacionalidad, clase social, posición laboral, cómo es presentado, cómo se autopresenta. Por lo general, todo eso es prefabricado y sin sustancia.
+- Aprender sobre el efecto halo es importante para que nunca caer en el; El cerebro infiere el todo desde una parte para no gastar energía; saber esto no inmuniza, pero regala un par de segundos para analizar y poder tomar una decision diferente.
