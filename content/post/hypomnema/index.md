@@ -27,3 +27,7 @@
 
 - Los opuestos, incluso los extremos, pueden ser parte de la misma unidad y tener las mismas propiedades: las dos caras de una moneda, el calor y el frío en una escala continua, 
 la izquierda y la derecha en política. Lo que parece contradicción puede ser solo posición dentro de un mismo sistema. Eso lo vio Heráclito hace 2.500 años y lo formalizó Nicolás de Cusa como [*coincidentia oppositorum*](https://es.wikipedia.org/wiki/Nicol%C3%A1s_de_Cusa): la coincidencia de los opuestos.
+
+---
+
+- Hobbes creía que el poder debía concentrarse para funcionar, el Estado. Pero existe otra forma: poder gaseoso, disperso, sin centro, sin aparente voluntad unificada, que logra los mismos efectos que el Leviatán: impone, manda, castiga. **El capital financiero** global es eso. No necesita querer nada para que todos actúen como si lo hiciera. Su ventaja sobre el Leviatán: Es dificíl de ser decapitado porque esta en todo y todo lugar.
