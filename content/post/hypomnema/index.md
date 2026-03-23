@@ -22,3 +22,8 @@
 ---
 
 - [Pruebas Silenciosas](https://en.wikipedia.org/wiki/The_Black_Swan_(Taleb_book)): El cementerio de ::predicciones:: equivocadas que pocos visitan.
+
+---
+
+- Los opuestos, incluso los extremos, pueden ser parte de la misma unidad y tener las mismas propiedades: las dos caras de una moneda, el calor y el frío en una escala continua, 
+la izquierda y la derecha en política. Lo que parece contradicción puede ser solo posición dentro de un mismo sistema. Eso lo vio Heráclito hace 2.500 años y lo formalizó Nicolás de Cusa como [*coincidentia oppositorum*](https://es.wikipedia.org/wiki/Nicol%C3%A1s_de_Cusa): la coincidencia de los opuestos.
