@@ -32,3 +32,8 @@ la izquierda y la derecha en política. Lo que parece contradicción puede ser s
 ---
 
 - Hobbes creía que el poder debía concentrarse para funcionar, el Estado. Pero existe otra forma: poder gaseoso, disperso, sin centro, sin aparente voluntad unificada, que logra los mismos efectos que el Leviatán: impone, manda, castiga. **El capital financiero** global es eso. No necesita querer nada para que todos actúen como si lo hiciera. Su ventaja sobre el Leviatán: Es dificíl de ser decapitado porque esta en todo y todo lugar.
+
+
+### Citas:
+
+- *"Quien con monstruos lucha, cuide de convertirse a su vez en monstruo. Cuando miras largo tiempo a un abismo, el abismo también mira dentro de ti."* Nietzsche, F. Más allá del bien y del mal (Obra original publicada en 1886).
