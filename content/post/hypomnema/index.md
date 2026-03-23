@@ -4,7 +4,7 @@
 
 ---
 
-- Iconoclasta. El modelo a seguir es una trampa: Te venden un espejo donde solo se ven ellos. Perdés tiempo y habitarte a vos mismo.
+- Iconoclasta. El modelo a seguir es una trampa: Te venden un espejo donde solo se ven ellos. Perdés tiempo y el virtuosismo de habitarte a vos mismo.
 
 ---
 
@@ -12,4 +12,4 @@
 
 ---
 
-- Aprender sobre el efecto halo es importante para que nunca caer en el; El cerebro infiere el todo desde una parte para no gastar energía; saber esto no inmuniza, pero regala un par de segundos para analizar y poder tomar una decision diferente.
+- Aprender sobre el efecto halo para no caer en el; El cerebro infiere el todo desde una parte para no gastar energía; saber esto no inmuniza, pero regala un par de segundos para analizar y poder no caer.
