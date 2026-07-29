@@ -7,8 +7,6 @@
 
 -->
 
-# Afelipehurtadoagudelo-md.github.io
-
 Diario personal hecho con **Hugo**.
 
 Este repositorio contiene mi sitio web personal: un diario en línea donde voy dejando apuntes, ensayos, cartas, notas de lectura y fragmentos de pensamiento. No está pensado como una vitrina ni como una marca personal, sino como un archivo vivo: una forma de rescatar ideas, fijar memoria y dejar rastro de procesos, obsesiones y preguntas.
