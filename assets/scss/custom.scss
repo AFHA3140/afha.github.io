@@ -1,330 +1,66 @@
-/*
- * Hypomnemata — rediseño editorial limpio para Hugo Theme Stack v4.
- * No convierte el sitio en una landing page: conserva el blog y mejora
- * jerarquía, lectura, tarjetas, avatar, barra lateral y modo oscuro.
- */
-
-/* ---------- Sistema visual ---------- */
-:root {
-    --sys-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
-        "SF Pro Display", "Segoe UI", Helvetica, Arial, sans-serif;
-    --base-font-family: var(--sys-font-family);
-    --article-font-family: Charter, "Iowan Old Style", "Palatino Linotype",
-        Palatino, Georgia, serif;
-
-    --body-background: #f5f5f7;
-    --body-text-color: #6e6e73;
-
-    --accent-color: #0066cc;
-    --accent-color-darker: #004f9e;
-    --accent-color-text: #ffffff;
-
-    --card-background: rgba(255, 255, 255, 0.86);
-    --card-background-selected: #ffffff;
-    --card-text-color-main: #1d1d1f;
-    --card-text-color-secondary: #6e6e73;
-    --card-text-color-tertiary: #86868b;
-    --card-separator-color: rgba(0, 0, 0, 0.08);
-
-    --card-border-radius: 24px;
-    --tag-border-radius: 999px;
-    --card-padding: 28px;
-    --section-separation: 32px;
-
-    --article-font-size: 1.82rem;
-    --article-line-height: 1.78;
-
-    --shadow-l1: 0 1px 2px rgba(0, 0, 0, 0.04),
-        0 10px 30px rgba(0, 0, 0, 0.055);
-    --shadow-l2: 0 2px 4px rgba(0, 0, 0, 0.05),
-        0 24px 60px rgba(0, 0, 0, 0.10);
+/* MODO CLARO = SEPIA/AMARILLO (Lectura de diario) */
+:root[data-scheme="light"] {
+    --body-background: #fdf6e3; /* Fondo crema */
+    --card-background: #eee8d5; /* Tarjetas un poco más oscuras */
+    --text-color-main: #586e75; /* Texto gris azulado suave */
+    --text-color-title: #268bd2; /* Títulos en azul suave */
 }
 
+/* MODO OSCURO = TERMINAL/OBSIDIAN (Pensamiento sistémico) */
 :root[data-scheme="dark"] {
-    --body-background: #000000;
-    --body-text-color: #a1a1a6;
-
-    --accent-color: #2997ff;
-    --accent-color-darker: #64b5ff;
-    --accent-color-text: #000000;
-
-    --card-background: rgba(28, 28, 30, 0.88);
-    --card-background-selected: #242426;
-    --card-text-color-main: #f5f5f7;
-    --card-text-color-secondary: #a1a1a6;
-    --card-text-color-tertiary: #86868b;
-    --card-separator-color: rgba(255, 255, 255, 0.11);
-
-    --blockquote-background-color: rgba(255, 255, 255, 0.055);
-    --code-background-color: rgba(255, 255, 255, 0.08);
-
-    --shadow-l1: 0 1px 1px rgba(0, 0, 0, 0.35),
-        0 18px 45px rgba(0, 0, 0, 0.28);
-    --shadow-l2: 0 2px 3px rgba(0, 0, 0, 0.5),
-        0 30px 80px rgba(0, 0, 0, 0.42);
+    --body-background: #0d1117; /* Negro profundo GitHub */
+    --card-background: #161b22; 
+    --text-color-main: #c9d1d9;
+    --accent-color: #2ea043; /* Verde éxito/terminal */
 }
 
-/* ---------- Fondo y tipografía ---------- */
-html {
-    scroll-behavior: smooth;
-    background: var(--body-background);
-}
-
+/* Tipografía general */
 body {
-    font-family: var(--base-font-family);
-    letter-spacing: -0.012em;
-    background:
-        radial-gradient(circle at 16% 0%, rgba(0, 113, 227, 0.055), transparent 32rem),
-        var(--body-background);
+  font-family: "Montserrat", system-ui, sans-serif;
 }
 
-:root[data-scheme="dark"] body {
-    background:
-        radial-gradient(circle at 15% 0%, rgba(41, 151, 255, 0.105), transparent 34rem),
-        var(--body-background);
-}
-
-h1, h2, h3, h4, h5, h6,
-.article-title,
-.site-name {
-    font-family: var(--base-font-family);
-    letter-spacing: -0.035em;
-    text-wrap: balance;
-}
-
-/* ---------- Barra lateral y avatar ---------- */
-.left-sidebar {
-    border-right: 1px solid var(--card-separator-color);
-}
-
-.site-avatar .site-logo {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 34px;
-    border: 1px solid var(--card-separator-color);
-    box-shadow: var(--shadow-l2);
-    transition: transform 220ms ease, box-shadow 220ms ease;
-}
-
-.site-avatar:hover .site-logo {
-    transform: translateY(-3px) scale(1.015);
-}
-
-.site-name {
-    margin-top: 1.8rem;
-    font-size: 2.75rem;
-    font-weight: 700;
-    color: var(--card-text-color-main);
-}
-
-.site-description {
-    max-width: 25rem;
-    margin-top: 0.8rem;
-    color: var(--card-text-color-secondary);
-    font-size: 1.55rem;
-    line-height: 1.55;
-}
-
-.menu li a {
-    border-radius: 14px;
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
-    transition: background-color 180ms ease, transform 180ms ease,
-        color 180ms ease;
-}
-
-.menu li a:hover {
-    background: var(--card-background);
-    transform: translateX(3px);
-}
-
-/* ---------- Tarjetas del inicio ---------- */
-.article-list article,
-.main-article,
-.widget,
-.pagination .page-link {
-    border: 1px solid var(--card-separator-color);
-    box-shadow: var(--shadow-l1);
-    backdrop-filter: blur(18px) saturate(145%);
-    -webkit-backdrop-filter: blur(18px) saturate(145%);
-}
-
-.article-list article {
-    overflow: hidden;
-    transition: transform 220ms ease, box-shadow 220ms ease,
-        border-color 220ms ease;
-}
-
-.article-list article:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-l2);
-    border-color: rgba(0, 102, 204, 0.22);
-}
-
-:root[data-scheme="dark"] .article-list article:hover {
-    border-color: rgba(41, 151, 255, 0.32);
-}
-
-.article-list article .article-image img {
-    transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.article-list article:hover .article-image img {
-    transform: scale(1.025);
-}
-
-.article-list .article-title {
-    font-size: clamp(2.15rem, 2vw, 2.8rem);
-    line-height: 1.12;
-    font-weight: 720;
-}
-
-.article-list .article-subtitle {
-    margin-top: 1rem;
-    color: var(--card-text-color-secondary);
-    font-family: var(--article-font-family);
-    font-size: 1.65rem;
-    line-height: 1.58;
-}
-
-.article-time,
-.article-translations,
-.article-category a,
-.article-tags a {
-    letter-spacing: -0.01em;
-}
-
-.article-tags a,
-.tagCloud .tagCloud-tags a {
-    border: 1px solid var(--card-separator-color);
-    background: var(--card-background);
-    padding: 0.55rem 1rem;
-}
-
-/* ---------- Página de lectura ---------- */
-.main-article {
-    overflow: hidden;
-}
-
-.article-header .article-title {
-    max-width: 18ch;
-    font-size: clamp(3.3rem, 5vw, 5.5rem);
-    line-height: 1.02;
-    font-weight: 760;
-}
-
+/* Cuerpo de los posts */
 .article-content {
-    max-width: 72ch;
-    margin-inline: auto;
-    font-family: var(--article-font-family);
-    font-size: var(--article-font-size);
-    line-height: var(--article-line-height);
-    color: var(--card-text-color-main);
-    letter-spacing: -0.006em;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.95rem;
+  line-height: 1.85;
 }
 
-.article-content > p:first-of-type::first-letter {
-    float: left;
-    margin: 0.08em 0.10em 0 0;
-    font-family: var(--base-font-family);
-    font-size: 3.75em;
-    font-weight: 700;
-    line-height: 0.82;
-    color: var(--accent-color);
+/* Títulos */
+.article-title,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", system-ui, sans-serif;
+  letter-spacing: -0.02em;
 }
 
-.article-content h2 {
-    margin-top: 2.5em;
-    font-size: 2.45rem;
-    line-height: 1.15;
+/* Links rosados */
+.article-content a,
+.main-article a,
+.article-title a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.article-content h3 {
-    margin-top: 2em;
-    font-size: 2.05rem;
+.article-content a:hover,
+.main-article a:hover,
+.article-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
 }
 
-.article-content a {
-    color: var(--accent-color);
-    text-decoration-thickness: 0.08em;
-    text-underline-offset: 0.18em;
+/* Cursivas más elegantes */
+.article-content em {
+  font-style: italic;
 }
 
+/* Bloques de cita con más personalidad */
 .article-content blockquote {
-    margin: 2.2em 0;
-    padding: 1.4em 1.55em;
-    border-left: 0;
-    border-radius: 18px;
-    background: var(--blockquote-background-color);
-    box-shadow: inset 3px 0 0 var(--accent-color);
-    font-style: normal;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  font-style: italic;
 }
 
-.article-content img {
-    border-radius: 18px;
-    box-shadow: var(--shadow-l1);
-}
 
-.article-content code:not(pre code) {
-    border: 1px solid var(--card-separator-color);
-    border-radius: 7px;
-    padding: 0.12em 0.35em;
-}
-
-.article-content pre {
-    border: 1px solid var(--card-separator-color);
-    border-radius: 18px;
-    box-shadow: var(--shadow-l1);
-}
-
-/* ---------- Controles ---------- */
-.search-form input,
-.search-form button,
-.pagination .page-link {
-    border-radius: 14px;
-}
-
-button,
-a {
-    -webkit-tap-highlight-color: transparent;
-}
-
-::selection {
-    color: #ffffff;
-    background: #0071e3;
-}
-
-/* ---------- Pantallas pequeñas ---------- */
-@media (max-width: 768px) {
-    :root {
-        --card-border-radius: 20px;
-        --card-padding: 21px;
-        --article-font-size: 1.72rem;
-        --article-line-height: 1.72;
-    }
-
-    .site-avatar .site-logo {
-        width: 112px;
-        height: 112px;
-        border-radius: 26px;
-    }
-
-    .article-header .article-title {
-        font-size: clamp(3rem, 10vw, 4.1rem);
-    }
-
-    .article-content > p:first-of-type::first-letter {
-        font-size: 3.15em;
-    }
-}
-
-/* Respeta a usuarios que desactivan animaciones. */
-@media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
-        scroll-behavior: auto !important;
-        transition-duration: 0.01ms !important;
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-    }
-}
+/* Si quieres que el "Blanco" sea el de defecto del sistema */
+/* El usuario podrá alternar entre Sepia y Oscuro con el botón del sol/luna */

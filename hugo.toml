@@ -1,63 +1,50 @@
-theme = "hugo-theme-stack"
-title = "Hypomnemata"
-languageCode = "es-co"
-defaultContentLanguage = "es"
+theme = 'hugo-theme-stack'
 enableGitInfo = true
 
+languageCode = "es"
+defaultContentLanguage = "es"
+
 [author]
-name = "Felipe Hurtado Agudelo"
+
 
 [params]
-mainSections = ["post"]
-rssFullContent = true
-description = "Notas, ensayos y fragmentos de un diario público."
+  mainSections = ["post"]
+  description = "Lo que rescato de mi diario"
+  # Aquí he metido tus temas y lecturas para que Hugo no de error
+  topics = ["Sistema educativo", "Política y poder", "Instituciones", "Cultura pública", "Historia del presente"]
+  actual_reads = ["Hobbes", "WatchMen", "Tiger"]
+  x_handle = "@phiLL3141"
+  birth = "1989"
 
-[params.footer]
-since = 2026
-customText = "Un archivo vivo: memoria, cuaderno y laboratorio de ideas."
+  # "auto" permite que el visitante elija con un botón de sol/luna
+    defaultMode = "auto" 
+    # Esto activa el switch visual en la barra lateral
+    displayModeSwitch = true
 
-[params.dateFormat]
-published = "2 de January de 2006"
-lastUpdated = "2 de January de 2006"
+      # ... color de página ...
+    [params.style]
+        defaultMode = "auto"
+        displayModeSwitch = true
 
-# Stack v4 usa una sola ruta para el avatar.
-# La imagen debe estar en assets/img/avatar.png
-[params.sidebar]
-compact = false
-avatar = "img/avatar.png"
-subtitle = "Memoria, apuntes y preguntas que vale la pena conservar."
-
-[params.colorScheme]
-toggle = true
-default = "auto"
-
-[params.article]
-headingAnchor = true
-toc = true
-readingTime = true
-
-[params.article.list]
-showTags = true
-
-[params.imageProcessing]
-autoOrient = true
-
-[params.imageProcessing.thumbnail]
-enabled = true
-
-[params.imageProcessing.content]
-enabled = true
-widths = [800, 1600, 2400]
+  [params.sidebar]
+    subtitle = "Memoria. Lo que rescato de mi diario"
+    enabled = true
+    local = true
+    src = "img/avatar.jpg"
+  
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-[markup.goldmark]
+  [params.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.jpg"
 
-[markup.goldmark.renderer]
-unsafe = true
-
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+    [outputs]
+    home = ["HTML", "RSS", "JSON"]
 
 [params.search]
-enabled = true
+    enabled = true
