@@ -1,0 +1,7 @@
+
+# Generados por Hugo
+/public/
+/resources/
+.hugo_build.lock
+assets/jsconfig.json
+# Archivos construidos automáticamente por Hugo
